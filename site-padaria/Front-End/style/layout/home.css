@@ -284,3 +284,25 @@ spam {
   }
 
 }
+
+/* iPads (iPad Mini, iPad Air, iPad Pro) -------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-logo {
+    margin-left: 2.5rem;
+  }
+
+  .home-container {
+    margin-left: 4rem;
+    margin-top: 3rem;
+  }
+
+  .home-descript h2,
+  spam {
+    font-size: 2.8rem;
+  }
+
+  .home-info {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}
